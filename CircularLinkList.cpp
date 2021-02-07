@@ -99,6 +99,7 @@ template<typename T>
 Status CircularLinkList<T>::ListDeleteAll() {
     _circular_link_list->next = nullptr;
     InitList();
+    return STATUS_OK;
 }
 
 template<typename T>
