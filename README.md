@@ -5,3 +5,6 @@
 
 
 [循环链表](https://github.com/JelixLi/basic_algorithm/blob/main/CircularLinkList.cpp)
+
+
+[链栈](https://github.com/JelixLi/basic_algorithm/blob/main/LinkedStack.cpp)
