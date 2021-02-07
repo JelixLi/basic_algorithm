@@ -74,12 +74,14 @@ Status LinkList<T>::ListDelete(int idx,std::shared_ptr<const T>& data) {
     }
     data = p->next->data;
     p->next = std::move(p->next->next);
+    return STATUS_OK;
 }
 
 template<typename T>
 Status LinkList<T>::ListDeleteAll() {
     _link_list_head->next = nullptr;
     _link_list_size = 2;
+    return STATUS_OK;
 }
 
 int main() {
