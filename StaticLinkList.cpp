@@ -112,6 +112,7 @@ Status StaticLinkList<T>::ListDelete(int idx,std::shared_ptr<const T>& data) {
 template<typename T>
 Status StaticLinkList<T>::ListDeleteAll() {
     InitStaticLinkList(0);
+    return STATUS_OK; 
 }
 
 int main(int argc,const char* argv[]) {
