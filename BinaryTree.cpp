@@ -109,12 +109,12 @@ std::string Postorder_traversal(Node *T) {
         }
         if(!sk.empty()) {
             p = sk.top();
-            if(p==pre || p->right==NULL) {
+            if(p->right==pre || p->right==NULL) {
                 sk.pop();
                 s.push_back(p->data);
+                pre = p;
                 p = NULL;
             } else {
-                pre = p;
                 p = p->right;
             }
         }
@@ -123,7 +123,8 @@ std::string Postorder_traversal(Node *T) {
 }
 
 int main() {
-    std::string tree_str = "ABC##D##E##";
+    // std::string tree_str = "ABC##D##E##";
+    std::string tree_str = "ABC##D##E#F##";
     Node *tree = BuildTree(tree_str);
     std::cout<<Preorder_traversal_recursive(tree)<<std::endl;
     std::cout<<Preorder_traversal(tree)<<std::endl;
