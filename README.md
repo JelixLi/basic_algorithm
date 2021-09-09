@@ -20,3 +20,6 @@
 
 
 [并查集（WQUPC）](https://github.com/JelixLi/basic_algorithm/blob/main/UnionFind.cpp)
+
+
+[二叉堆](https://github.com/JelixLi/basic_algorithm/blob/main/BinaryHeap.cpp)
