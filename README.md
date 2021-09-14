@@ -23,3 +23,6 @@
 
 
 [二叉堆](https://github.com/JelixLi/basic_algorithm/blob/main/BinaryHeap.cpp)
+
+
+[二叉搜索树（BST）](https://github.com/JelixLi/basic_algorithm/blob/main/BinarySearchTree.cpp)
