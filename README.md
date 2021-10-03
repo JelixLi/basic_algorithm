@@ -27,4 +27,8 @@
 
 [二叉搜索树（BST）](https://github.com/JelixLi/basic_algorithm/blob/main/BinarySearchTree.cpp)
 
+
 [前缀树（Trie）](https://github.com/JelixLi/basic_algorithm/blob/main/Trie.cpp)
+
+
+[N皇后（python可视化）](https://github.com/JelixLi/basic_algorithm/blob/main/queues.py)
