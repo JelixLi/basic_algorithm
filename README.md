@@ -32,3 +32,5 @@
 
 
 [N皇后（python可视化）](https://github.com/JelixLi/basic_algorithm/blob/main/queues.py)
+
+[平衡二叉树（AVL）](https://github.com/JelixLi/basic_algorithm/blob/main/AVLTree.cpp)
